@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-ls -ltr $1
+ls -ltr $GITHUB_WORKSPACE
 
 time=$(date)
 echo "time=$time" >> $GITHUB_OUTPUT
