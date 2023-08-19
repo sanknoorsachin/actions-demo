@@ -3,6 +3,3 @@
 ls -ltr $GITHUB_WORKSPACE
 
 
-
-time= $(date)
-
