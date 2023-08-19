@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-echo $ {{ github.workspace }}
+echo $GITHUB_REPOSITORY
 
 time= $(date)
 echo "time=$time" >> $GITHUB_OUTPUT
