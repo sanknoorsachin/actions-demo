@@ -1,9 +1,8 @@
 #!/bin/sh -l
 
 ls -ltr $GITHUB_WORKSPACE
-ls -ltr $ {{ github.workspace }}
-ls -ltr $$RUNNER_WORKSPACE
-ls -ltr $ {{ runner.workspace }}
+ls -ltr $RUNNER_WORKSPACE
+
 
 time= $(date)
 
