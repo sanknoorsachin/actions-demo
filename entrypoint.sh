@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-$ echo {{ github.workspace }}
+echo $ {{ github.workspace }}
 
-time=$(date)
+time= $(date)
 echo "time=$time" >> $GITHUB_OUTPUT
